@@ -45,7 +45,7 @@ $lang["open"] = "Ouvert";
 $lang["closed"] = "Fermé";
 $lang["date"] = "Date";
 $lang["yes"] = "Oui";
-$lang["no"] = "No";
+$lang["no"] = "Non";
 $lang["add_more"] = "Ajouter plus";
 $lang["crop"] = "Couper";
 $lang["income"] = "Revenus";
@@ -110,7 +110,7 @@ $lang["add_team_member"] = "Ajouter membre de l'équipe";
 $lang["edit_team_member"] = "Modifier membre de l'équipe";
 $lang["delete_team_member"] = "Supprimer membre de l'équipe";
 $lang["team_member"] = "Membre de l'équipe";
-$lang["team_members"] = "Membres de l'équipes";
+$lang["team_members"] = "Membres";
 $lang["active_members"] = "Les membres actifs";
 $lang["inactive_members"] = "Les membres inactifs";
 $lang["first_name"] = "Prénom";
@@ -931,76 +931,76 @@ $lang["notification_invoice_payment_confirmation"] = "Paiement reçu";
 
 /* Version 1.7 */
 
-$lang["client_can_create_projects"] = "Client can create projects?";
-$lang["client_can_view_timesheet"] = "Client can view timesheet?";
-$lang["client_can_view_gantt"] = "Client can view gantt?";
-$lang["client_can_view_overview"] = "Client can view project overview?";
-$lang["client_can_view_milestones"] = "Client can view milestones?";
+$lang["client_can_create_projects"] = "Le client peux créer des projets?";
+$lang["client_can_view_timesheet"] = "Le client peut voir le fueilles de temps?";
+$lang["client_can_view_gantt"] = "Le client peut voir les gantts?";
+$lang["client_can_view_overview"] = "Le client peut voirles détails des projets?";
+$lang["client_can_view_milestones"] = "Le client peut voir les jalons?";
 
-$lang["items"] = "Items";
-$lang["edit_item"] = "Edit item";
-$lang["item_edit_instruction"] = "Note: The changes will not be affected on existing invoices or estimates.";
+$lang["items"] = "Articles";
+$lang["edit_item"] = "Modifier Articles";
+$lang["item_edit_instruction"] = "Note: Les modifications ne seront pas affectées sur les factures ou les estimations existantes.";
 
-$lang["recurring"] = "Recurring";
-$lang["repeat_every"] = "Repeat every"; //Ex. repeat every 2 months
-$lang["interval_days"] = "Day(s)";
-$lang["interval_weeks"] = "Week(s)";
-$lang["interval_months"] = "Month(s)";
-$lang["interval_years"] = "Year(s)";
+$lang["recurring"] = "Récurrent(e)";
+$lang["repeat_every"] = "Répétez chaque"; //Ex. repeat every 2 months
+$lang["interval_days"] = "Jour(s)";
+$lang["interval_weeks"] = "Semaine(s)";
+$lang["interval_months"] = "Mois";
+$lang["interval_years"] = "Année(s)";
 $lang["cycles"] = "Cycles";
-$lang["recurring_cycle_instructions"] = "Recurring will be stopped after the number of cycles. Keep it blank for infinity.";
-$lang["next_recurring_date"] = "Next recurring";
-$lang["stopped"] = "Stopped";
-$lang["past_recurring_date_error_message_title"] = "The selected bill date and repeat type returns a past date.";
-$lang["past_recurring_date_error_message"] = "Next recurring date must be a future date. Please enter a future date.";
-$lang["sub_invoices"] = "Sub invoices";
+$lang["recurring_cycle_instructions"] = "La récurrence s'interrompt après le nombre de cycles. Gardez-le vide pour l'infini.";
+$lang["next_recurring_date"] = "Prochaine récurrence";
+$lang["stopped"] = "Arrêté(e)";
+$lang["past_recurring_date_error_message_title"] = "La date de facturation sélectionnée et le type de répétition renvoient une date antérieure.";
+$lang["past_recurring_date_error_message"] = "La prochaine date récurrente doit être une date future. Veuillez saisir une date ultérieure.";
+$lang["sub_invoices"] = "Sous-factures";
 
-$lang["cron_job_required"] = "Cron Job is required for this action!";
+$lang["cron_job_required"] = "Cron Job est nécessaire pour cette action!";
 
-$lang["recurring_invoice_created_vai_cron_job"] = "Recurring invoice created via Cron Job";
-$lang["notification_recurring_invoice_created_vai_cron_job"] = "New invoice generated";
+$lang["recurring_invoice_created_vai_cron_job"] = "Facture récurrente créée via Cron Job";
+$lang["notification_recurring_invoice_created_vai_cron_job"] = "Nouvelle facture générée";
 
-$lang["field_type_number"] = "Number";
-$lang["show_in_table"] = "Show in table";
-$lang["show_in_invoice"] = "Show in invoice";
-$lang["visible_to_admins_only"] = "Visible to admins only";
-$lang["hide_from_clients"] = "Hide from clients";
-$lang["public"] = "Public";
+$lang["field_type_number"] = "Nombres";
+$lang["show_in_table"] = "Afficher dans le tableaus";
+$lang["show_in_invoice"] = "Afficher sur la facture";
+$lang["visible_to_admins_only"] = "Visible uniquement aux administrateurs";
+$lang["hide_from_clients"] = "Cacher des clients";
+$lang["public"] = "Publique";
 
 $lang["help"] = "Help";
 $lang["articles"] = "Articles";
-$lang["add_article"] = "Add new article";
-$lang["edit_article"] = "Edit article";
-$lang["delete_article"] = "Delete article";
-$lang["can_manage_help_and_knowledge_base"] = "Can manage help and knowledge base?";
+$lang["add_article"] = "Ajouter Article";
+$lang["edit_article"] = "Modifier Article";
+$lang["delete_article"] = "Supprimer Article";
+$lang["can_manage_help_and_knowledge_base"] = "Peut gérer les aides et connaissances de base?";
 
-$lang["how_can_we_help"] = "How can we help?";
-$lang["help_page_title"] = "Internal Wiki";
-$lang["search_your_question"] = "Search your question";
-$lang["no_result_found"] = "No result found.";
+$lang["how_can_we_help"] = "Comment pouvons nous aider?";
+$lang["help_page_title"] = "Wiki interne";
+$lang["search_your_question"] = "Chercher votre question";
+$lang["no_result_found"] = "Aucun résultat trouvé.";
 $lang["sort"] = "Sort";
-$lang["total_views"] = "Total views";
+$lang["total_views"] = "Total des vues";
 
-$lang["help_and_support"] = "Help & Support";
-$lang["knowledge_base"] = "Knowledge base";
+$lang["help_and_support"] = "Aide et Support";
+$lang["knowledge_base"] = "Connaissance de base";
 
-$lang["payment_success_message"] = "Your payment has been completed.";
-$lang["payment_card_charged_but_system_error_message"] = "You card may be charged but we can't complete the process. Please contact to your system admin.";
-$lang["card_payment_failed_error_message"] = "We can't process your payment right now, so please try again later.";
+$lang["payment_success_message"] = "Votre paiement a été effectué.";
+$lang["payment_card_charged_but_system_error_message"] = "Votre carte peut être facturée, mais nous ne pouvons pas terminer le processus. Veuillez contacter votre administrateur système.";
+$lang["card_payment_failed_error_message"] = "Nous ne pouvons pas traiter votre paiement pour le moment. Veuillez réessayer plus tard.";
 
-$lang["message_received"] = "Message received";
-$lang["in_number_of_days"] = "In %s days"; //Ex. In 7 days
-$lang["details"] = "Details";
-$lang["summary"] = "Summary";
-$lang["project_timesheet"] = "Project timesheet";
+$lang["message_received"] = "Message reçu";
+$lang["in_number_of_days"] = "En %s jours"; //Ex. In 7 days
+$lang["details"] = "Détails";
+$lang["summary"] = "Résumé";
+$lang["project_timesheet"] = "Feuille de temps du projet";
 
-$lang["set_event_permissions"] = "Set event permissions";
-$lang["disable_event_sharing"] = "Disable event sharing";
-$lang["can_update_team_members_general_info_and_social_links"] = "Can update team member's general info and social links?";
-$lang["can_manage_team_members_project_timesheet"] = "Can manage team member's project timesheet?";
+$lang["set_event_permissions"] = "Définir des autorisations d'événement";
+$lang["disable_event_sharing"] = "Désactiver le partage d'événements";
+$lang["can_update_team_members_general_info_and_social_links"] = "Peut mettre à jour les informations générales et les liens sociaux des membres de l'équipe?";
+$lang["can_manage_team_members_project_timesheet"] = "Peut gérer la feuille de temps du projet des membres de l'équipe?";
 
 $lang["cron_job"] = "Cron Job";
 $lang["cron_job_link"] = "Cron Job link";
 $lang["last_cron_job_run"] = "Last Cron Job run";
 $lang["created_from"] = "Created from"; //Ex. Created from Invoice#1
-$lang["recommended_execution_interval"] = "Recommended execution interval";
+$lang["recommended_execution_interval"] = "Exécution interne recommandé";
